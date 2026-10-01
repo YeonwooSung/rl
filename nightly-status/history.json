@@ -1,28 +1,28 @@
 {
-  "last_updated": "2026-10-01T06:05:24.796071+00:00",
+  "last_updated": "2026-10-01T18:18:12.727160+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
       "runs_with_data": 7,
       "total_workflow_runs": 72,
-      "total_success": 63,
+      "total_success": 62,
       "total_failure": 9,
-      "success_rate": 87.5
+      "success_rate": 86.1
     },
     "last_30_days": {
       "days": 26,
       "runs_with_data": 19,
       "total_workflow_runs": 197,
-      "total_success": 171,
+      "total_success": 170,
       "total_failure": 26,
-      "success_rate": 86.8
+      "success_rate": 86.3
     }
   },
   "history": [
     {
       "date": "2026-10-01",
       "orchestrator_ran": true,
-      "orchestrator_status": "pending",
+      "orchestrator_status": "queued",
       "orchestrator_url": "https://github.com/YeonwooSung/rl/actions/runs/36822866343",
       "orchestrator_run_id": 36822866343,
       "workflows": {
@@ -93,8 +93,8 @@
           "display_name": "Benchmarks"
         },
         "validate-test-partitioning.yml": {
-          "status": "success",
-          "conclusion": "success",
+          "status": "cancelled",
+          "conclusion": "cancelled",
           "url": "https://github.com/YeonwooSung/rl/actions/runs/36822866343/job/110242047530",
           "display_name": "Test Partitioning"
         },
@@ -131,11 +131,11 @@
       },
       "summary": {
         "total": 17,
-        "success": 9,
+        "success": 8,
         "failure": 0,
         "skipped": 8,
-        "other": 0,
-        "success_rate": 100.0
+        "other": 1,
+        "success_rate": 88.9
       }
     },
     {
