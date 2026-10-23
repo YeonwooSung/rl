@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-23T06:07:09.285834+00:00",
+  "last_updated": "2026-10-23T18:15:24.113430+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
@@ -22,7 +22,7 @@
     {
       "date": "2026-10-23",
       "orchestrator_ran": true,
-      "orchestrator_status": "pending",
+      "orchestrator_status": "queued",
       "orchestrator_url": "https://github.com/YeonwooSung/rl/actions/runs/39909253309",
       "orchestrator_run_id": 39909253309,
       "workflows": {
