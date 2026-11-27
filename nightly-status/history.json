@@ -1,24 +1,143 @@
 {
-  "last_updated": "2026-11-26T18:10:07.651881+00:00",
+  "last_updated": "2026-11-27T06:04:33.946349+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
       "runs_with_data": 7,
-      "total_workflow_runs": 96,
+      "total_workflow_runs": 93,
       "total_success": 84,
-      "total_failure": 12,
-      "success_rate": 87.5
+      "total_failure": 9,
+      "success_rate": 90.3
     },
     "last_30_days": {
       "days": 30,
       "runs_with_data": 30,
-      "total_workflow_runs": 345,
-      "total_success": 300,
-      "total_failure": 45,
-      "success_rate": 87.0
+      "total_workflow_runs": 347,
+      "total_success": 303,
+      "total_failure": 44,
+      "success_rate": 87.3
     }
   },
   "history": [
+    {
+      "date": "2026-11-27",
+      "orchestrator_ran": true,
+      "orchestrator_status": "pending",
+      "orchestrator_url": "https://github.com/YeonwooSung/rl/actions/runs/45949425139",
+      "orchestrator_run_id": 45949425139,
+      "workflows": {
+        "test-linux.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/YeonwooSung/rl/actions/runs/45949425139/job/140341602668",
+          "display_name": "Linux Tests"
+        },
+        "test-linux-llm.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/YeonwooSung/rl/actions/runs/45949425139/job/140341597723",
+          "display_name": "LLM Tests"
+        },
+        "test-linux-habitat.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/YeonwooSung/rl/actions/runs/45949425139/job/140341598243",
+          "display_name": "Habitat Tests"
+        },
+        "test-linux-tutorials.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/YeonwooSung/rl/actions/runs/45949425139/job/140341598210",
+          "display_name": "Tutorials Tests"
+        },
+        "test-linux-examples.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/YeonwooSung/rl/actions/runs/45949425139/job/140341598075",
+          "display_name": "Examples Tests"
+        },
+        "test-linux-sota.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/YeonwooSung/rl/actions/runs/45949425139/job/140341597711",
+          "display_name": "SOTA Tests"
+        },
+        "test-linux-libs.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/YeonwooSung/rl/actions/runs/45949425139/job/140341597998",
+          "display_name": "Libs Tests"
+        },
+        "test-windows-optdepts.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/YeonwooSung/rl/actions/runs/45949425139/job/140341598841",
+          "display_name": "Windows Tests"
+        },
+        "lint.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/YeonwooSung/rl/actions/runs/45949425139/job/140341597294",
+          "display_name": "Lint"
+        },
+        "docs.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/YeonwooSung/rl/actions/runs/45949425139/job/140341598622",
+          "display_name": "Documentation"
+        },
+        "benchmarks.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/YeonwooSung/rl/actions/runs/45949425139/job/140341597106",
+          "display_name": "Benchmarks"
+        },
+        "validate-test-partitioning.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/YeonwooSung/rl/actions/runs/45949425139/job/140341597496",
+          "display_name": "Test Partitioning"
+        },
+        "nightly_build.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/YeonwooSung/rl/actions/runs/45949425139/job/140341599031",
+          "display_name": "Nightly Build"
+        },
+        "build-wheels-linux.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/YeonwooSung/rl/actions/runs/45949425139/job/140341597553",
+          "display_name": "Wheels (Linux)"
+        },
+        "build-wheels-m1.yml": {
+          "status": "skipped",
+          "conclusion": null,
+          "url": null,
+          "display_name": "Wheels (M1)"
+        },
+        "build-wheels-windows.yml": {
+          "status": "skipped",
+          "conclusion": null,
+          "url": null,
+          "display_name": "Wheels (Windows)"
+        },
+        "build-wheels-aarch64-linux.yml": {
+          "status": "skipped",
+          "conclusion": null,
+          "url": null,
+          "display_name": "Wheels (Aarch64)"
+        }
+      },
+      "summary": {
+        "total": 17,
+        "success": 12,
+        "failure": 0,
+        "skipped": 5,
+        "other": 0,
+        "success_rate": 100.0
+      }
+    },
     {
       "date": "2026-11-26",
       "orchestrator_ran": true,
